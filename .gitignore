@@ -1,0 +1,25 @@
+# Node modules (필수 제외)
+node_modules/
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 환경 변수 파일 (보통 비공개 정보)
+.env
+.env.local
+.env.*.local
+
+# 빌드 전용 임시 파일 (IDE, OS 관련)
+.DS_Store
+Thumbs.db
+
+# 테스트 커버리지 결과
+coverage/
+
+# 빌드 산출물 (라이브러리 경우에는 제외하지 말 것!)
+# dist/    <--- 빌드 폴더는 반드시 포함해야 하니 주석 처리하거나 삭제
+
+# VSCode 설정
+.vscode/
