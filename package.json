@@ -2,11 +2,11 @@
   "name": "my-chatbot-lib-0",
   "version": "1.0.0",
   "type":"module",
+  "types": "./dist/Chatbot.d.ts",
   "exports":{
     ".":{
       "import":"./dist/my-chatbot-lib-0.es.js",
-      "require":"./dist/my-chatbot-lib-0.cjs",
-      "types": "./dist/Chatbot.d.ts"
+      "require":"./dist/my-chatbot-lib-0.cjs"
     },
     "./style.css":"./dist/my-chatbot-lib-0.css"
   },
