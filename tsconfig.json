@@ -8,9 +8,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "strict": true,
-    // "declaration": true,            // ✅ .d.ts 파일 생성
-    // "declarationDir": "dist",       // ✅ 생성된 타입을 dist에 넣기
-    // "emitDeclarationOnly": true,   // ✅ dist/에 불필요한 Chatbot.js 제거
+    "declaration": true,            // ✅ .d.ts 파일 생성
+    "declarationDir": "dist",       // ✅ 생성된 타입을 dist에 넣기
+    "emitDeclarationOnly": true,  
     "outDir": "dist"
   },
   "include": ["src"]
