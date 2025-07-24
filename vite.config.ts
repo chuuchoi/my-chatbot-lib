@@ -6,8 +6,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/Chatbot.tsx'),
-      name: 'MyChatbotLib',
+      name: 'MyChatbot5Lib',
       fileName: (format) => `my-chatbot-lib-0.${format}.js`,
+      formats: ['es', 'umd']
     },
     rollupOptions: {
       // 🔥 즉, react/jsx-runtime이 external 처리되지 않고 같이 번들된 겁니다. 이건 Vite 3 이상에서 JSX 사용 시 흔히 발생하는 문제예요.
