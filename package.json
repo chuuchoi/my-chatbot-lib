@@ -6,6 +6,7 @@
   "types": "dist/Chatbot.d.ts",
   "exports":{
     ".":{
+      "types": "./dist/Chatbot.d.ts",
       "import":"./dist/my-chatbot-lib-0.es.js",
       "require":"./dist/my-chatbot-lib-0.umd.js"
     },
