@@ -7,7 +7,8 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/Chatbot.tsx'),
       name: 'MyChatbot5Lib',
-      fileName: (format) => `my-chatbot-lib-0.${format}.js`,
+      // fileName: (format) => `my-chatbot-lib-0.${format}.js`,
+      fileName: (format) =>format === 'umd'? 'my-chatbot-lib-0.cjs' : 'my-chatbot-lib-0.es.js',
       formats: ['es', 'umd']
     },
     rollupOptions: {

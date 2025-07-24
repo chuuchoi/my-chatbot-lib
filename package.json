@@ -1,14 +1,12 @@
 {
   "name": "my-chatbot-lib-0",
   "version": "1.0.0",
-  "main": "dist/my-chatbot-lib-0.umd.js",
-  "module": "dist/my-chatbot-lib-0.es.js",
-  "types": "dist/Chatbot.d.ts",
+  "type":"module",
   "exports":{
     ".":{
-      "types": "./dist/Chatbot.d.ts",
       "import":"./dist/my-chatbot-lib-0.es.js",
-      "require":"./dist/my-chatbot-lib-0.umd.js"
+      "require":"./dist/my-chatbot-lib-0.cjs",
+      "types": "./dist/Chatbot.d.ts"
     },
     "./style.css":"./dist/my-chatbot-lib-0.css"
   },
@@ -18,7 +16,7 @@
     "preview": "vite preview"
   },
   "keywords": [],
-  "author": "",
+  "author": "ChatGPT",
   "license": "ISC",
   "description": "",
   "devDependencies": {
