@@ -4,6 +4,10 @@
   "main": "dist/my-chatbot-lib-0.umd.js",
   "module": "dist/my-chatbot-lib-0.es.js",
   "types": "dist/Chatbot.d.ts",
+  "exports":{
+    "import":"./dist/my-chatbot-lib-0.es.js",
+    "require":"./dist/my-chatbot-lib-0.umd.js"
+  },
   "scripts": {
     "dev": "vite example",
     "build": "vite build",
