@@ -8,7 +8,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "strict": true,
-    "declaration": true,
+    "declaration": true,            // ✅ .d.ts 파일 생성
+    "declarationDir": "dist",       // ✅ 생성된 타입을 dist에 넣기
+    "emitDeclarationOnly": false,   // ✅ .js도 함께 출력
     "outDir": "dist"
   },
   "include": ["src"]
