@@ -6,7 +6,7 @@
   "types": "dist/Chatbot.d.ts",
   "scripts": {
     "dev": "vite example",
-    "build": "vite build && tsc",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "keywords": [],
