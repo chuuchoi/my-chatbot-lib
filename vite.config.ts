@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/Chatbot.tsx'),
       name: 'MyChatbotLib',
-      fileName: (format) => `my-chatbot-lib.${format}.js`,
+      fileName: (format) => `my-chatbot-lib-0.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'react-dom'],

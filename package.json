@@ -1,8 +1,8 @@
 {
-  "name": "my-chatbot-lib",
+  "name": "my-chatbot-lib-0",
   "version": "1.0.0",
-  "main": "dist/my-chatbot-lib.umd.js",
-  "module": "dist/my-chatbot-lib.es.js",
+  "main": "dist/my-chatbot-lib-0.umd.js",
+  "module": "dist/my-chatbot-lib-0.es.js",
   "types": "dist/Chatbot.d.ts",
   "scripts": {
     "dev": "vite example",
